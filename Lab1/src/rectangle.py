@@ -21,7 +21,7 @@ class Shape(ABC):
 class Rectangle(Shape):
     def __init__(self, width, height):
     # To create a private variable, you prefix the variable name with two underscores.
-    # Cite from https://blog.gitnux.com/code/python-private-variables/
+    # The comment above cited from https://blog.gitnux.com/code/python-private-variables/
         self.__width = width
         self.__height = height
 
