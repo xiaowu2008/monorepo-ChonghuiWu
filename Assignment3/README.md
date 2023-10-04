@@ -1,12 +1,13 @@
 # TODO Please edit the following information in your assignment
 
-- Name:
-- How many hours did it take you to complete this assignment?
-- Did you collaborate with any other students/TAs/Professors?
+- Name: Chonhui Wu
+- How many hours did it take you to complete this assignment? About 5 hours
+- Did you collaborate with any other students/TAs/Professors? No
 - Did you use any external resources? (Cite them below)
-  - tbd
-  - tbd
+  I clicked the related link and searched Gilded Rose kata on google.
+  Also spend some time in Glided Rose in World of Warcraft :)
 - (Optional) What was your favorite part of the assignment?
+  The Glided Rose part.
 - (Optional) How would you improve the assignment?
 
 # Implementation Logistics
