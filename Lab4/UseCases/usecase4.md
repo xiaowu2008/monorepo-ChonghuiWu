@@ -6,31 +6,41 @@
 
 <hr>
 
-**Use Case**: *use-case-title*
+**Use Case**: Save Canvas
 
-**Primary Actor**: *primary-actor*
+**Primary Actor**: User
 
-**Goal in Context**: *the aim of the primary-actor in a particular circumstance*
+**Goal in Context**: Save the current state of the canvas as an image file.
 
-**Preconditions**: *conditions that must be true before the scenario may play out*
+**Preconditions**: The application is running, and the canvas contains some drawings.
 
-**Trigger**: *an action or actions that initiate the scenario*
+**Trigger**: User selects the 'Save' option from a menu.
   
-**Scenario**: *an enumerated list of steps describing the actions and interactions of the primary actor with the system*
+**Scenario**: 
+1. User initiates the save command either by selecting the 'Save' option from a menu.
+2. The system prompts the user to select a location and provide a filename.
+3. User chooses the location and provides a filename.
+4. The system saves the current state of the canvas as an image file to the specified location with the given filename.
  
-**Exceptions**: *errors or faults that may occur during the scenario. Should include remedy/corrective action taken by the primary actor*
+**Exceptions**: 
+User initiates the save command, but the system fails to save the image.
 
-**Priority**: *relative importance of this use case compared to other use cases*
+Corrective Action:
+The system displays an error message to the user indicating the issue.
+The system prompts the user to try saving again or choose a different location.
 
-**When available**: *the targeted release that covers this use case*
+**Priority**: High
 
-**Channel to actor**: *the means through which the primary actor and the system communicate*
+**When available**: First release
 
-**Secondary Actor**: *any other actors – people or systems – that may be involved in the scenario*
+**Channel to actor**: Graphical User Interface
 
-**Channels to Secondary Actors**: *the means through which any secondary actors may interact with the system or other actors*
+**Secondary Actor**: File System
 
-**Open Issues**: *notes, concerns, or other materials*
+**Channels to Secondary Actors**: Operating System API
+
+**Open Issues**: 
+Consider adding a "Save As" feature for users to save in different formats or locations without overwriting the original file.
 
 <hr>
 
