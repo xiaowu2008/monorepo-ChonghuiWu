@@ -2,12 +2,13 @@
 
 - Name:
 - How many hours did it take you to complete this assignment?
+2 hours
 - Did you collaborate with any other students/TAs/Professors?
+No.
 - Did you use any external resources? (Cite them below)
-  - tbd
-  - tbd
-- (Optional) What was your favorite part of the assignment?
-- (Optional) How would you improve the assignment?
+  I searched on the google to search paypal's usecases.
+  https://www.paypal.com/ms/webapps/mpp/what-is-paypal 
+  which paypal provides.
 
 # Implementation Logistics
 
